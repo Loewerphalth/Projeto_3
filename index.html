@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Games - História</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nintendo Games</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jogos">Jogos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="gameCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#gameCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#gameCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#gameCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/mario-caroussel.jpeg" class="d-block w-100" alt="Mario">
+                <div class="carousel-caption">
+                    <h5>Super Mario Bros</h5>
+                    <p>O jogo que revolucionou os jogos de plataforma</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/zelda caroussel.jpeg" class="d-block w-100" alt="Zelda">
+                <div class="carousel-caption">
+                    <h5>The Legend of Zelda</h5>
+                    <p>Uma das franquias mais icônicas da Nintendo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/pokemon-blue-caroussel.jpeg" class="d-block w-100" alt="Pokemon">
+                <div class="carousel-caption">
+                    <h5>Pokémon</h5>
+                    <p>A franquia que conquistou o mundo</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#gameCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#gameCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Seção da Loja -->
+    <section class="py-5 bg-light" id="loja">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossa Loja</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-danger mb-4">Bem-vindo à Nintendo Games Store</h3>
+                            <p class="card-text">
+                                Somos uma loja especializada em produtos Nintendo, oferecendo uma experiência única para fãs e colecionadores. Nossa missão é trazer a magia dos jogos Nintendo para todos os jogadores, com produtos autênticos e um atendimento excepcional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Consoles Novos e Usados -->
+    <section class="py-5" id="consoles">
+        <div class="container">
+            <h2 class="text-center mb-5">Consoles Novos e Usados</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-danger mb-4">Encontre o Console Perfeito</h3>
+                            <p class="card-text">
+                                Oferecemos uma ampla variedade de consoles Nintendo, tanto novos quanto usados, todos cuidadosamente testados e certificados. Desde o clássico NES até o moderno Nintendo Switch, temos opções para todos os gostos e orçamentos.
+                            </p>
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <h4 class="text-danger">Consoles Novos</h4>
+                                    <ul class="list-unstyled">
+                                        <li>✓ Nintendo Switch OLED</li>
+                                        <li>✓ Nintendo Switch</li>
+                                        <li>✓ Nintendo Switch Lite</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4 class="text-danger">Consoles Usados</h4>
+                                    <ul class="list-unstyled">
+                                        <li>✓ Nintendo Wii U</li>
+                                        <li>✓ Nintendo 3DS</li>
+                                        <li>✓ Nintendo Wii</li>
+                                        <li>✓ Nintendo DS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Jogos -->
+    <section class="py-5 bg-light" id="jogos">
+        <div class="container">
+            <h2 class="text-center mb-5">Jogos Físicos e Digitais</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-danger mb-4">Ampla Seleção de Jogos</h3>
+                            <p class="card-text">
+                                Nossa loja oferece uma extensa coleção de jogos Nintendo, tanto em mídia física quanto digital. Trabalhamos com lançamentos recentes e títulos clássicos, garantindo que você encontre exatamente o que procura.
+                            </p>
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <h4 class="text-danger">Jogos Físicos</h4>
+                                    <ul class="list-unstyled">
+                                        <li>✓ Novos e lacrados</li>
+                                        <li>✓ Usados em ótimo estado</li>
+                                        <li>✓ Edições especiais</li>
+                                        <li>✓ Coleções limitadas</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4 class="text-danger">Jogos Digitais</h4>
+                                    <ul class="list-unstyled">
+                                        <li>✓ Códigos de download</li>
+                                        <li>✓ Gift cards Nintendo</li>
+                                        <li>✓ Assinatura Nintendo Switch Online</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Acessórios -->
+    <section class="py-5" id="acessorios">
+        <div class="container">
+            <h2 class="text-center mb-5">Acessórios Originais</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-danger mb-4">Complete Sua Experiência</h3>
+                            <p class="card-text">
+                                Oferecemos uma variedade de acessórios originais Nintendo para melhorar sua experiência de jogo. Todos os produtos são 100% originais e garantidos.
+                            </p>
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <h4 class="text-danger">Acessórios Switch</h4>
+                                    <ul class="list-unstyled">
+                                        <li>✓ Joy-Cons</li>
+                                        <li>✓ Pro Controller</li>
+                                        <li>✓ Dock Station</li>
+                                        <li>✓ Capas e cases</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4 class="text-danger">Outros Acessórios</h4>
+                                    <ul class="list-unstyled">
+                                        <li>✓ Carregadores</li>
+                                        <li>✓ Cabos HDMI</li>
+                                        <li>✓ Memory cards</li>
+                                        <li>✓ Amiibos</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Compra e Revenda -->
+    <section class="py-5 bg-light" id="revenda">
+        <div class="container">
+            <h2 class="text-center mb-5">Compra e Revenda</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-danger mb-4">Venda Seu Console Nintendo</h3>
+                            <p class="card-text">
+                                Compramos seu console Nintendo usado em bom estado. Oferecemos avaliação gratuita e preços justos. Todos os consoles passam por uma rigorosa inspeção antes da compra.
+                            </p>
+                            <div class="mt-4">
+                                <h4 class="text-danger">Como Funciona</h4>
+                                <ol>
+                                    <li>Agende uma avaliação do seu console</li>
+                                    <li>Nossa equipe analisa o estado do produto</li>
+                                    <li>Oferecemos um valor justo</li>
+                                    <li>Pagamento imediato após aceitação</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Assistência Técnica -->
+    <section class="py-5" id="assistencia">
+        <div class="container">
+            <h2 class="text-center mb-5">Assistência Técnica</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-danger mb-4">Serviço Autorizado Nintendo</h3>
+                            <p class="card-text">
+                                Nossa assistência técnica é autorizada pela Nintendo, oferecendo serviços de qualidade para todos os consoles. Nossa equipe é treinada e certificada para garantir o melhor atendimento.
+                            </p>
+                            <div class="mt-4">
+                                <h4 class="text-danger">Serviços Oferecidos</h4>
+                                <ul class="list-unstyled">
+                                    <li>✓ Manutenção preventiva</li>
+                                    <li>✓ Reparo de hardware</li>
+                                    <li>✓ Limpeza e higienização</li>
+                                    <li>✓ Troca de peças originais</li>
+                                    <li>✓ Recuperação de dados</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- História da Nintendo -->
+    <section class="py-5 bg-light" id="historia">
+        <div class="container">
+            <h2 class="text-center mb-5">A Jornada da Nintendo</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-danger mb-4">Das Cartas de Baralho aos Videogames</h3>
+                            <p class="card-text">
+                                Fundada em 1889 por Fusajiro Yamauchi em Kyoto, Japão, a Nintendo começou sua jornada como uma empresa de cartas de baralho artesanais chamadas "Hanafuda". Por décadas, a Nintendo foi uma das principais fabricantes de cartas do Japão, mas a visão de seus líderes sempre foi mais ampla.
+                            </p>
+                            <p class="card-text">
+                                Nos anos 1960, sob a liderança de Hiroshi Yamauchi, neto do fundador, a Nintendo começou a diversificar seus negócios, experimentando com diferentes produtos, desde brinquedos até hotéis de amor. Foi apenas nos anos 1970 que a empresa encontrou seu verdadeiro caminho ao entrar no mercado de videogames.
+                            </p>
+                            <h3 class="card-title text-danger mt-4 mb-3">A Era dos Arcades e o Nascimento de Ícones</h3>
+                            <p class="card-text">
+                                Em 1981, a Nintendo lançou "Donkey Kong", criado por Shigeru Miyamoto, que introduziu ao mundo dois personagens que se tornariam ícones: Mario (originalmente chamado de Jumpman) e Donkey Kong. Este foi o primeiro grande sucesso da Nintendo no mercado de arcades.
+                            </p>
+                            <h3 class="card-title text-danger mt-4 mb-3">A Revolução do NES</h3>
+                            <p class="card-text">
+                                Em 1983, a Nintendo lançou o Nintendo Entertainment System (NES) no Japão, e em 1985 nos Estados Unidos. Este console não apenas salvou a indústria de videogames da crise de 1983, mas também estabeleceu novos padrões de qualidade e inovação. Jogos como "Super Mario Bros." e "The Legend of Zelda" redefiniram o que era possível em um videogame.
+                            </p>
+                            <h3 class="card-title text-danger mt-4 mb-3">Inovação Contínua</h3>
+                            <p class="card-text">
+                                Ao longo dos anos, a Nintendo continuou a inovar com consoles revolucionários como o Game Boy (1989), o primeiro console portátil com cartuchos intercambiáveis; o Nintendo 64 (1996), que introduziu o analógico 3D; o Wii (2006), que popularizou o controle por movimento; e o Nintendo Switch (2017), que uniu o melhor dos mundos portátil e console.
+                            </p>
+                            <h3 class="card-title text-danger mt-4 mb-3">O Legado Continua</h3>
+                            <p class="card-text">
+                                Hoje, a Nintendo continua sendo uma das empresas mais influentes e inovadoras da indústria de jogos. Com franquias icônicas como Mario, Zelda, Pokémon, Metroid e muitas outras, a Nintendo não apenas criou jogos memoráveis, mas também moldou a infância de gerações e continua a inspirar novos jogadores ao redor do mundo.
+                            </p>
+                            <div class="text-center mt-4">
+                                <a href="https://www.nintendo.com/pt-br/" target="_blank" class="btn btn-danger">Visite o Site Oficial</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid de Cards -->
+    <div class="container my-5 pt-5" id="jogos">
+        <h2 class="text-center mb-4">Grandes Jogos da Nintendo</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4" id="mario">
+                <div class="card">
+                    <img src="imagens/super_mario_bros__1985.jpg" class="card-img-top" alt="Super Mario Bros">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Mario Bros (1985)</h5>
+                        <p class="card-text">O jogo que definiu os jogos de plataforma e salvou a indústria dos videogames. Mario e Luigi precisam resgatar a Princesa Peach das garras do Bowser. Jogue agora de graça!</p>
+                        <a href="https://arcadespot.com/game/super-mario-bros/" target="_blank" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4" id="zelda">
+                <div class="card">
+                    <img src="imagens/the-legend-of-zelda-nes-front-cover.jpg" class="card-img-top" alt="The Legend of Zelda">
+                    <div class="card-body">
+                        <h5 class="card-title">The Legend of Zelda (1986)</h5>
+                        <p class="card-text">O primeiro jogo da série que introduziu Link e a Princesa Zelda. Um RPG de ação que revolucionou o gênero com sua exploração não-linear. Jogue agora de graça!</p>
+                        <a href="https://arcadespot.com/game/the-legend-of-zelda/" target="_blank" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4" id="pokemon">
+                <div class="card">
+                    <img src="imagens/pokemon-blue.jpeg" class="card-img-top" alt="Pokémon Red/Blue">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokémon Red/Blue (1996)</h5>
+                        <p class="card-text">O início da franquia Pokémon que conquistou o mundo. Capture, treine e batalhe com criaturas únicas em uma jornada para se tornar um Mestre Pokémon. Jogue agora de graça!</p>
+                        <a href="https://arcadespot.com/game/pokemon-red/" target="_blank" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4" id="smash">
+                <div class="card">
+                    <img src="imagens/smah-bros.jpg" class="card-img-top" alt="Super Smash Bros">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Smash Bros (1999)</h5>
+                        <p class="card-text">Um jogo de luta que reúne os maiores personagens da Nintendo. Uma franquia que continua a crescer e encantar fãs até hoje. Jogue agora de graça!</p>
+                        <a href="https://arcadespot.com/game/super-smash-bros/" target="_blank" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4" id="animal">
+                <div class="card">
+                    <img src="imagens/animal-crossing.jpg" class="card-img-top" alt="Animal Crossing">
+                    <div class="card-body">
+                        <h5 class="card-title">Animal Crossing (2001)</h5>
+                        <p class="card-text">Um simulador de vida que conquistou milhões de jogadores. Crie sua própria vila, faça amigos e viva uma vida pacífica com os animais. Jogue agora de graça!</p>
+                        <a href="https://arcadespot.com/game/animal-crossing-wild-world/" target="_blank" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4" id="splatoon">
+                <div class="card">
+                    <img src="imagens/splatoon.jpeg" class="card-img-top" alt="Splatoon">
+                    <div class="card-body">
+                        <h5 class="card-title">Splatoon (2015)</h5>
+                        <p class="card-text">Uma nova franquia que trouxe inovação aos jogos de tiro. Controle personagens que podem se transformar em lulas e pintar o cenário.</p>
+                        <a href="#" class="btn btn-danger">Ainda não disponível</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulário de Contato -->
+    <section class="py-5 bg-light" id="contato">
+        <div class="container">
+            <h2 class="text-center mb-5">Entre em Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label">Nome Completo</label>
+                                    <input type="text" class="form-control" id="nome" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label">Telefone (Opcional)</label>
+                                    <input type="tel" class="form-control" id="telefone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-danger">Enviar Mensagem</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Nintendo Games - Matheus Filipe - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
